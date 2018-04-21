@@ -1,0 +1,123 @@
+@import "variables.less";
+
+.heightQuoteBoard 
+{
+	height: @heightQuoteBoard;
+}
+
+.quoteBoard
+{
+	position: relative;
+	#quoteCarousel
+	{
+		background-image: url('../img/quoteImage.jpg');
+		.bg-cover();
+	}
+
+	&__contentWrapper
+	{
+
+	height: 300px;
+    position: absolute;
+    width: 95%;
+    right: 0;
+    z-index: 4;
+    bottom: 0;
+    .borderLine
+    {
+	    border-top: 2px solid #949494;
+	    border-left: 2px solid #949494;
+    }
+
+    h2
+    {
+		color: white;
+	    position: absolute;
+	    margin: 0px;
+	    padding: .2em 1em;
+	    top: -30px;
+    }
+
+	}
+
+	.moreButton
+	{
+
+	    position: absolute;
+	    bottom: 0px;
+	    right: 0px;
+	    background: white;
+	    z-index: 3;
+	    padding: 1em 3em;
+	    color: white;
+	    background: #fd502f;
+
+	    h3{
+	    	margin:0px;
+	    	.fontFamilySansSerif();
+	    }
+	}
+
+	.overlay
+	{
+		height: 100%;
+	    width: 100%;
+	    position: absolute;
+	    z-index: 3;
+	    background: rgba(25, 25, 25, 0.46);
+
+
+	}
+
+
+	.carousel
+	{	
+		 .carousel-control{
+		 	z-index: 10;
+		 	bottom: 80px;
+		 	&.left{
+		 		left: 45%;
+		 	}
+		 	&.right{
+		 		right: 45%;
+		 	}
+		 }
+
+		&-inner
+		{
+			height: 300px;
+		    bottom: 0px;
+		    position: absolute;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		    z-index: 5;
+		    span
+		    {
+		    	color: white;
+		    	font-size: 1.2em;
+		    }
+
+		}
+		&-item
+		{
+			height: fit-content;
+			width: 70%;
+			margin-top: -100px;
+			text-align: center;
+
+		}
+		&-indicators
+		{
+			bottom: 80px;
+		}
+	}
+
+
+
+
+
+}
+
+

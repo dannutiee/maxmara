@@ -1,0 +1,105 @@
+@import "variables.less";
+
+
+.labelBoard
+{
+    width: fit-content;
+    z-index: 2;
+    position: absolute;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2
+    {
+    	padding: .2em 4em .2em 1em;
+	    margin: 0px;
+	    line-height: 60px;
+	    text-align: left;
+    }
+    i
+    {
+    	padding-right: 20px;
+		font-size: 2em;
+    }
+
+}
+
+.newArriwals
+{
+	position: relative;
+	&__left
+	{
+		.bg-cover();
+		background-image: url( "../img/newArriwal_left.jpg" );
+	}
+
+	&__right
+	{
+		display: flex;
+		flex-direction: column;
+		&__image
+		{
+			background-image:  url( "../img/newArriwal_right.jpg");
+			.bg-cover();
+			height: 100%;
+
+		}
+	}
+
+	&__bottomBar
+	{
+		height: @navHeight;
+		border-bottom: 5px solid #fd502f;
+		padding-left: 50px;
+		.button
+		{
+			display: inline-block;
+		    position: absolute;
+		    bottom: 0px;
+		    background: #fd502f;
+		    padding: 10px 20px;
+		    color: white;
+		    cursor: pointer;
+		}
+	}
+
+	&__contentBox
+	{
+		height: @heightSection;
+	    position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+
+	}
+
+
+	&__textContainer
+	{
+	    .rectangle
+	    {
+		    position: absolute;
+		    color: white;
+		    padding: 15px;
+		    border: 1px solid white;
+		    margin-top: 50px;
+		    &__left
+		    {
+		    	margin-left: 50px;
+		    }
+		    &__right
+		    {
+		    	left: 50%;
+		    	transform: translate(-50%);
+		    }
+	    }
+	}
+
+
+
+}

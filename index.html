@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Super Fashion</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css" >
+
+</head>
+<body>
+	<nav class="container-fluid height noPadding hidden-xs hidden-sm">
+		<hr class="nav__borderTop" />
+
+		<a class="navbar-brand col-md-2" href="#"><!-- logo as bg --> </a>
+		  <div class="collapse navbar-collapse noPadding hidden-xs hidden-sm"  id="navbarNav">
+		    <ul class="navbar-nav col-md-8">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Homepage <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Collections</a>
+		      </li>
+		      <li class="nav-item navbar-nav__darkBg">
+		        <a class="nav-link" href="#">Stories</a>
+		      </li>
+		      <li class="nav-item navbar-nav__darkBg">
+		        <a class="nav-link disabled" href="#">Lookbook</a>
+		      </li>
+		    </ul>
+		    <ul class="navbar-nav col-md-2 nav__login navbar-nav__darkBg">
+			  <li class="nav-item">
+		        <a class="nav-link" href="#">Login</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link disabled" href="#">Sing in</a>
+		      </li>
+		    </ul>
+		  </div>
+
+	</nav>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light hidden-md hidden-lg">
+	  <a class="navbar-brand" href="#"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"> <i class="material-icons">menu</i></span>
+
+	  </button>
+	  <div class="collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link active" href="#">Homepage <span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link" href="#">Collections</a>
+	      <a class="nav-item nav-link" href="#">Stories</a>
+	      <a class="nav-item nav-link" href="#">Lookbook</a>
+	      <a class="nav-item nav-link disabled" href="#">Login</a>
+	      <a class="nav-item nav-link disabled" href="#">Sing in</a>
+	    </div>
+	  </div>
+	</nav>
+
+	<header class="container-fluid heightFullView">
+		<div class="row">
+			<!-- left -->
+			<div class="hidden-xs hidden-sm col-md-6 col-xs-12 col-sm-12 noPadding heightFullView"> 
+				<div class="col-md-2 heightFullView header__languages hidden-xs hidden-sm">
+					<ul class="navbar-nav">
+						<li>
+							<a href="#">English</a>
+						</li>
+						<li>
+							<a href="#">German</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="col-md-10  heightFullView noPadding">
+
+					<div class="col-md-12 noPadding nav zIndexLow"><!--empty--></div>
+					<div class="col-md-12  bg-image noPadding  header__leftImage" >
+					<div class="col-md-12 wrapperText">
+						
+						<h2> Max Mara Atelier Winter 17/18 </h2>
+						<div class="row article">
+							<div class="col-md-6 col-lg-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lobortis eros, eget aliquam mauris. Ut blandit justo cursus dui tincidunt, in feugiat nisl tristique.</div>
+							<div class="col-md-6 col-lg-6">Mauris et viverra odio, at semper nisi. Integer a pharetra ex, nec tristique massa. In hac habitasse platea dictumst. Quisque id felis tempus.</div>
+						</div>
+					</div>
+
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						
+						  <ol class="carousel-indicators">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="carousel-item active" style="background-image: url('img/left.jpg') ">
+						    </div>
+						    <div class="carousel-item " style="background-image: url('img/top2.jpg')" >
+						    </div>
+						    <div class="carousel-item " style="background-image: url('img/top3.jpg')" >
+						    </div>
+						  </div>
+
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+						<div class="movie-btn">
+							<span class="button">
+								<i class="material-icons">&#xE037;</i>
+							</span>
+							<span class="sentence">Watch Lookbook </span>
+						</div>
+
+					</div>
+					
+				</div>
+
+			</div>
+			<!--right -->
+			<div class="col-md-6 col-xs-12 col-sm-12 bg-image noPadding heightFullView header__rightImage " style="background-image: url('img/right2.jpg')"> 
+				<div class="overlay">
+					<div class="mobileTextBox col-xs-9 col-sm-9 hidden-md hidden-lg">
+							<h3 class="noMargin">Brand new</h3>
+							<h1 class="noMargin">F17</h1>
+							<h3 class="noMarginV col-md-offset-3 noPadding">Collection</h3>
+							<h5 class="col-md-4 col-md-offset-3 noPadding"> Quisque at tristique tellus. Curabitur enim lectus, iaculis a auctor ut, egestas nec magna.</h5>
+							<button class="col-md-3 col-md-offset-3">Shop Collection</button>
+					</div>
+
+				</div>
+
+			</div>
+				
+	    </div>
+
+		<div class="wrapperText col-md-6 col-md-offset-6 hidden-xs hidden-sm">
+			<h3 class="noMargin">Brand new</h3>
+			<h1 class="noMargin">F17</h1>
+			<h3 class="noMarginV col-md-offset-3 noPadding">Collection</h3>
+			<h5 class="col-md-4 col-md-offset-3 noPadding"> Quisque at tristique tellus. Curabitur enim lectus, iaculis a auctor ut, egestas nec magna.</h5>
+			<button class="col-md-3 col-md-offset-3">Shop Collection</button>
+
+		</div>
+		<div class="social-links">
+			<ul class="list-unstyled">
+				<a href="#"><li>Facebook</li></a>
+				<a href="#"><li>Instagram</li></a>
+			</ul>
+		</div>
+		<div class="borderLine col-md-12"></div>    
+		
+	</header>
+	<section class="container movie hidden-md hidden-lg">
+		<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/asz_-lnvEtA?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+	</section>
+	<section class="newArriwals container-fluid noPadding">
+		<div class="row noMargin wrapOnMobile">
+			<div class="newArriwals__left newArriwals__textContainer col-md-5 heightSection noPadding col-sm-8 col-xs-8">
+				<div class="col-md-5 col-lg-5 rectangle rectangle__left hidden-sm hidden-xs"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lobortis eros, eget aliquam mauris. Ut blandit justo cursus dui tincidunt, in feugiat nisl tristique. Curabitur rhoncus porttitor enim pharetra consequat. Integer condimentum hendrerit orci<span></div>
+			</div>
+			<div class="col-sm-4 col-xs-4 hidden-md hidden-lg heightSection sectionBar">
+				<hr class="bar" />
+				<h2 class="buttonShadow"> New Arriwals </h2>
+			</div>
+			<div class="col-sm-4 col-xs-4 hidden-md hidden-lg heightSection noPadding newArriwals__buttonBox">
+				<button class="buttonShadow">See News</button>
+			</div>
+			<div class="newArriwals__right col-md-5 col-md-offset-2 heightSection noPadding col-sm-8 col-xs-8 ">
+
+				<div class="newArriwals__right__image newArriwals__textContainer col-md-10">
+					<div class="col-md-8 col-lg-8 rectangle rectangle__right hidden-sm hidden-xs"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lobortis eros, eget aliquam mauris. Ut blandit justo cursus dui tincidunt, in feugiat nisl tristiques<span></div>
+				</div>
+
+				<div class="newArriwals__bottomBar col-md-10 col-md-offset-2 hidden-xs hidden-sm">
+					<div class="button hidden-sm hidden-xs">See News</div>
+				</div>
+			</div>
+			<div class="newArriwals__contentBox hidden-xs hidden-sm">
+				<div class="labelBoard button">
+					<a href="#" class="no-style">
+						<h2 class="buttonShadow"> New Arriwals </h2>
+					</a>
+					<i class="material-icons">&#xE037;</i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bestPrice  container">
+				<div class="row noMargin">
+					<div class="button hidden-md hidden-lg h-100  bestPrice__buttonBox">
+						 <h2 class="cursor buttonShadow">Best Price</h2>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 heightSection image" style="background-image: url('img/max1.jpg')"></div>
+					<div class="col-md-3 col-sm-6 col-xs-6 heightSection image" style="background-image: url('img/max2.jpg')"></div>
+					<div class="col-md-3 col-sm-6 col-xs-6  heightSection image marginTop" style="background-image: url('img/max3.jpg')"></div>
+					<div class="col-md-3 col-sm-6 col-xs-6 heightSection image marginTop" style="background-image: url('img/max4.jpg')"></div>
+
+				</div>
+
+				<div class="row noMargin">
+				  <a href="#" class="no-style">
+					<div class="labelBoard hidden-xs hidden-sm button">
+						<i class="material-icons">&#xE037;</i>
+						<h2> Best Price </h2>
+					</div>
+				   </a>
+				</div>
+		
+		
+	</section>	
+
+	<section class="container-fluid quoteBoard heightQuoteBoard noPadding">
+			<div class="row noMargin heightQuoteBoard">
+				<div class="quoteBoard__contentWrapper hidden-xs hidden-sm">
+					 <div class="col-md-7 borderLine h-100"></div>
+					 <div class="col-md-5 h-100 hidden-xs hidden-sm">
+					 	<h2> Max Mara Atelier </h2>
+					 </div>
+					
+				</div>
+
+						<div class="overlay"></div>
+						<div id="quoteCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#quoteCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#quoteCarousel" data-slide-to="1"></li>
+						    <li data-target="#quoteCarousel" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner image">
+						    <div class="carousel-item active">
+						    	<span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales a tortor quis rhoncus. In condimentum euismod neque quis posuere.  </span>
+						    </div>
+						    <div class="carousel-item " >
+						    	<span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </span>
+						    </div>
+						  </div>
+
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control button" href="#quoteCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control button" href="#quoteCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+
+
+			</div>
+			<a href="#">
+				<div class="moreButton cursor buttonShadow button">
+					<h3 >More About</h3>
+				</div>	
+			</a>
+		</section>
+		<footer class="container" >
+			<div class="row noMargin">
+				<div class="noPadding col-md-3 col-xs-6 col-sm-3">
+					<ul class="list-unstyled">
+						<li class="title">About Us</li>
+						<a><li>About Us</li></a>
+						<a><li>Who We Are</li></a>
+						<a><li>How We Work</li></a>
+						<a><li>Testimonials</li></a>
+						<a><li>Case Study</li></a>
+						<a><li>Blog</li></a>
+					</ul>
+				</div>
+				<div class="noPadding col-md-3 col-xs-6 col-sm-3">
+					<ul class="list-unstyled">
+						<li class="title">Services</li>
+						<a><li>Work Wear</li></a>
+						<a><li>Event Wear</li></a>
+						<a><li>Casual Wear</li></a>
+						<a><li>Men's Wear</li></a>
+						<a><li>Fees</li></a>
+					</ul>
+				</div>
+				<div class="noPadding col-md-3 col-xs-12 col-sm-3">
+					<ul class="list-unstyled">
+						<li class="title">Contact Us</li>
+						<li>0788 1234 234</li>
+						<li>hello@companyname.pl</li>
+					</ul>
+					<ul class="list-unstyled">
+						<li class="title">Follow us on</li>
+						<ul class="social-icons list-unstyled">
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-youtube"></a></li>
+						</ul>
+
+					</ul>
+				</div>
+				<div class="noPadding col-md-3 col-xs-12 col-sm-3">
+					<ul class="list-unstyled">
+						<li class="title">Dont't Miss Out</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales a tortor quis rhoncus. In condimentum euismod neque quis posuere.</li>
+					</ul>
+					<form action="/action_page.php" class="form">
+					   <input class="input" type="text" name="fname" placeholder="Your e-mail"><br>
+					  <input type="submit" value="Submit" class="btn">
+					</form>
+				</div>
+			</div>
+			<div class="row policy">
+				<div class="col-md-6 copyright"><span>&copy 2018 EDIT LONDON All Rights Reserved</span></div>
+				<div class="col-md-4 pull-right author"><a href="http://www.ludwikowskadanuta.pl/"><span>Made by Danuta Ludwikowska</span></a></div>
+			</div>
+		</footer>
+
+
+		
+					
+					
+
+
+	<!-- scripts -->
+<!-- <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script> -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+</body>
+</html>

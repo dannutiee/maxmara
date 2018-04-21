@@ -1,0 +1,947 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+.bestPrice {
+  position: relative;
+}
+.bestPrice div.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.bestPrice .labelBoard {
+  bottom: 0px;
+}
+.bestPrice .labelBoard h2 {
+  padding: .2em 1em .2em 4em !important;
+}
+.bestPrice .labelBoard i {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+footer {
+  margin-top: 80px;
+  height: fit-content;
+  font-size: 14px !important;
+}
+footer .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer .policy {
+  position: relative;
+  bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #a3a3a3;
+}
+footer .policy .author {
+  text-align: right;
+}
+footer a {
+  text-decoration: none;
+  color: inherit !important;
+}
+.social-icons {
+  display: flex;
+  flex-direction: flex-start;
+}
+.social-icons li {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  background: #686868;
+  color: white;
+  border-radius: 50%;
+  align-items: center;
+}
+.form {
+  display: flex;
+}
+.form .input {
+  padding: 3px 5px;
+  border: 1px solid #a6a6a6;
+}
+.form .btn {
+  background: black;
+  color: white;
+  margin-left: 5px;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+body {
+  font-family: 'MyFont', meiryo, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  font-size: 12em ;
+  line-height: .9em;
+  font-family: 'MyFont', meiryo, serif;
+}
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'MyFont', meiryo, serif;
+}
+h5 {
+  font-style: italic;
+  line-height: 1.5em;
+}
+h2 {
+  font-size: 3em;
+  font-family: serif;
+}
+.noPadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.noMargin {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.noMarginH {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.noMarginV {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.heightFullView,
+.wrapperText,
+header .overlay,
+.header .overlay {
+  height: 100vh;
+  max-height: 1200px;
+}
+.heightSection {
+  height: 850px;
+}
+.h-100 {
+  height: 100%;
+}
+section {
+  margin-top: 50px;
+}
+.zIndexLow {
+  z-index: -10 !important;
+}
+.overlay {
+  background: rgba(25, 25, 25, 0.46);
+}
+.cursor {
+  cursor: pointer;
+}
+.button {
+  z-index: 1000 !important;
+  cursor: pointer;
+}
+a.no-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+header .bg-image,
+.header .bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .overlay,
+.header .overlay {
+  background-color: rgba(25, 25, 25, 0.46);
+  height: 100vh;
+}
+header__rightImage,
+.header__rightImage {
+  z-index: 2;
+}
+header__leftImage,
+.header__leftImage {
+  height: calc(100% - 80px);
+  top: 80px;
+}
+header__leftImage .wrapperText,
+.header__leftImage .wrapperText {
+  margin-top: -80px;
+}
+header__leftImage .article,
+.header__leftImage .article {
+  width: 100%;
+}
+header__languages,
+.header__languages {
+  writing-mode: vertical-rl;
+  z-index: 2;
+  display: flex;
+  transform: rotate(180deg);
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  justify-content: space-evenly;
+}
+header__languages a,
+.header__languages a {
+  color: #4f4f4f;
+}
+header__languages li,
+.header__languages li {
+  line-height: unset !important;
+  width: unset !important;
+}
+header .borderLine,
+.header .borderLine {
+  position: absolute;
+  width: 95%;
+  padding: 0px;
+  margin: 0px;
+  bottom: 50px;
+  z-index: 2;
+  border: none;
+  height: 140px;
+  border-right: 2px solid #aeaeae5c;
+  border-bottom: 2px solid #aeaeae5c;
+}
+.contentOverlay {
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  padding: 0px;
+  z-index: 10;
+}
+.wrapperText {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 70px;
+  right: 0px;
+}
+.wrapperText button {
+  background: #fd502f;
+  border: none;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.wrapperText button:hover {
+  background: white;
+  color: black;
+}
+.carousel {
+  height: 100%;
+}
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: unset;
+}
+.carousel-item {
+  display: none;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel .carousel-control {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: unset;
+  bottom: 100px;
+  width: 30px;
+  height: 30px;
+  line-height: 50px;
+  background: rgba(255, 255, 255, 0.14901961);
+  border-radius: 50%;
+  opacity: 1;
+}
+.carousel .carousel-control span {
+  font-size: 14px;
+  margin: 0px;
+  position: relative;
+  top: unset;
+  right: unset;
+  left: unset;
+  line-height: 30px;
+}
+.carousel .carousel-indicators {
+  position: absolute;
+  bottom: unset;
+  padding-left: unset;
+  margin-left: unset;
+  top: 15%;
+  left: 0px;
+  text-align: left;
+  padding-left: 66px;
+}
+.carousel-control.right {
+  right: 15%;
+}
+.carousel-control.left {
+  left: 70%;
+}
+.carousel-control:hover {
+  background: rgba(255, 255, 255, 0.50980392);
+  cursor: pointer;
+}
+.movie-btn {
+  position: absolute;
+  border: 100;
+  bottom: 100px;
+  left: 15%;
+  color: white;
+  display: flex;
+  z-index: 10;
+}
+.movie-btn .button {
+  width: 30px;
+  height: 30px;
+  background: white;
+  display: inline-block;
+  border-radius: 50%;
+}
+.movie-btn .button:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+.movie-btn .button:hover .material-icons {
+  color: white !important;
+}
+.movie-btn .button .material-icons {
+  color: black;
+  line-height: 30px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+}
+.movie-btn .sentence {
+  line-height: 30px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.social-links {
+  position: absolute;
+  bottom: 200px;
+  left: 95%;
+  z-index: 10;
+  color: white;
+  writing-mode: vertical-rl;
+}
+.social-links ul {
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+  list-style-type: none;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  letter-spacing: 1px;
+  align-items: center;
+  margin: 0px;
+}
+.social-links ul a {
+  text-decoration: none;
+  color: white;
+}
+.social-links ul li {
+  margin-bottom: 30px;
+  cursor: pointer;
+  padding: 10px 2px;
+}
+.social-links ul li:hover {
+  background: white;
+  color: black;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+@media only screen and (max-width : 992px) {
+  header .borderLine {
+    width: 90%;
+  }
+  header .social-links {
+    left: 90%;
+  }
+  .buttonShadow {
+    box-shadow: 4px 4px 12px #1714149c;
+    z-index: 10;
+  }
+  .heightFullView {
+    height: unset !important;
+    position: relative;
+  }
+  .heightFullView,
+  .wrapperText,
+  header .overlay,
+  .header .overlay {
+    max-height: 600px !important;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+  }
+  h1 {
+    font-size: 10em;
+  }
+  .heightSection,
+  .heightQuoteBoard {
+    min-height: 300px;
+    max-height: 350px;
+  }
+  nav,
+  .nav {
+    line-height: 80px;
+  }
+  nav #navbarNavAltMarkup,
+  .nav #navbarNavAltMarkup,
+  nav .navbar-nav,
+  .nav .navbar-nav {
+    width: 100%;
+  }
+  nav-item,
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+  }
+  nav .navbar-nav,
+  .nav .navbar-nav {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+  nav .navbar-nav a,
+  .nav .navbar-nav a {
+    line-height: 60px;
+  }
+  nav #navbarNavAltMarkup,
+  .nav #navbarNavAltMarkup {
+    background: white;
+    margin-top: -12px;
+    border: none;
+    width: 101%;
+    left: -1px;
+    position: absolute;
+    display: none;
+  }
+  nav button,
+  .nav button {
+    border: none;
+    background: none;
+    width: 30%;
+    padding-top: 10px;
+  }
+  nav button i,
+  .nav button i {
+    font-size: 2em !important;
+  }
+  nav button:focus,
+  .nav button:focus {
+    outline: none;
+  }
+  .mobileTextBox {
+    z-index: 10;
+    color: white;
+    padding: 150px 20px 50px 20px;
+  }
+  .mobileTextBox button {
+    background: #fd502f;
+    border: none;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  .mobileTextBox button:hover {
+    background: white;
+    color: black;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .navbar-brand {
+    width: 70%;
+    border-top: 5px solid #fd502f;
+  }
+  .heightFullView {
+    height: 700px;
+  }
+  .newArriwals__right {
+    border-left: 20px solid white;
+    border-top: 20px solid white;
+    margin-top: -60px;
+  }
+  .newArriwals__buttonBox {
+    margin-top: -60px;
+  }
+  .newArriwals button {
+    display: block;
+    width: calc(100% + 20px);
+    position: absolute;
+    bottom: 0px;
+    border: none;
+    background: #fd502f;
+    height: fit-content;
+    color: white;
+    text-align: left;
+    font-size: 1.6em;
+    padding: 1em 0 1em 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-family: 'serif';
+    margin-left: -20px;
+  }
+  .quoteBoard .moreButton {
+    position: relative !important;
+    margin-top: 2px;
+  }
+  iframe {
+    width: 100%;
+    height: 350px;
+  }
+  .sectionBar {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  .sectionBar .bar {
+    margin: 0px;
+    height: 5px;
+    width: calc(100% + 20px);
+    background: #fd502f;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+  }
+  .sectionBar h2 {
+    display: block;
+    position: absolute;
+    left: -50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background: white;
+    top: 40%;
+  }
+  .bestPrice__buttonBox {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bestPrice__buttonBox h2 {
+    display: block;
+    background: white;
+    z-index: 6;
+    position: absolute;
+    margin: 0px;
+    padding: .5em;
+  }
+  .wrapOnMobile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .carousel-inner {
+    height: inherit !important;
+  }
+  .carousel-indicators {
+    bottom: 0px !important;
+  }
+  .carousel-item {
+    margin-top: -20px !important;
+  }
+  .marginTop {
+    margin-top: 10px;
+  }
+  footer .policy {
+    font-size: .9em;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #c4c4c4;
+  }
+  footer .policy .author {
+    float: left !important;
+  }
+}
+@media only screen and ( max-width : 320px ) {
+  .heightSection,
+  iframe,
+  .heightQuoteBoard {
+    min-height: 250px;
+    max-height: 250px;
+  }
+}
+@media only screen and ( min-width: 768px ) and ( max-width : 992px ) {
+  body {
+    font-size: 20px;
+  }
+  .heightSection,
+  .heightQuoteBoard {
+    min-height: 300px;
+    max-height: 600px !important;
+  }
+  .heightFullView,
+  .wrapperText,
+  header .overlay,
+  .header .overlay {
+    max-height: 800px;
+  }
+  .sectionBar h2 {
+    padding: 1em 0 1em 1em;
+    width: 100%;
+  }
+  .bestPrice__buttonBox h2 {
+    padding: 1em;
+  }
+  .moreButton h3 {
+    font-family: 'serif';
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heightFullView,
+  .wrapperText,
+  header .overlay,
+  .header .overlay {
+    max-height: 800px;
+  }
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+nav,
+.nav {
+  height: 80px;
+  min-height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+}
+nav__borderTop,
+.nav__borderTop {
+  height: 5px;
+  background-color: #fd502f;
+  width: 25%;
+  margin: 0px;
+  position: absolute;
+  z-index: 3;
+}
+nav__login,
+.nav__login {
+  background-color: #fd502f;
+  float: right !important;
+}
+nav__login a,
+.nav__login a {
+  color: white;
+}
+.navbar-brand {
+  background-image: url('../img/logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px !important;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  z-index: 10;
+  list-style-type: none;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.navbar-nav a {
+  color: #4f4f4f;
+}
+.navbar-nav__darkBg a {
+  color: white;
+}
+.navbar-nav li {
+  line-height: 80px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+.labelBoard {
+  width: fit-content;
+  z-index: 2;
+  position: absolute;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labelBoard h2 {
+  padding: .2em 4em .2em 1em;
+  margin: 0px;
+  line-height: 60px;
+  text-align: left;
+}
+.labelBoard i {
+  padding-right: 20px;
+  font-size: 2em;
+}
+.newArriwals {
+  position: relative;
+}
+.newArriwals__left {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/newArriwal_left.jpg");
+}
+.newArriwals__right {
+  display: flex;
+  flex-direction: column;
+}
+.newArriwals__right__image {
+  background-image: url("../img/newArriwal_right.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.newArriwals__bottomBar {
+  height: 80px;
+  border-bottom: 5px solid #fd502f;
+  padding-left: 50px;
+}
+.newArriwals__bottomBar .button {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  background: #fd502f;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+.newArriwals__contentBox {
+  height: 850px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newArriwals__textContainer .rectangle {
+  position: absolute;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  margin-top: 50px;
+}
+.newArriwals__textContainer .rectangle__left {
+  margin-left: 50px;
+}
+.newArriwals__textContainer .rectangle__right {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}
+.heightQuoteBoard {
+  height: 400px;
+}
+.quoteBoard {
+  position: relative;
+}
+.quoteBoard #quoteCarousel {
+  background-image: url('../img/quoteImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.quoteBoard__contentWrapper {
+  height: 300px;
+  position: absolute;
+  width: 95%;
+  right: 0;
+  z-index: 4;
+  bottom: 0;
+}
+.quoteBoard__contentWrapper .borderLine {
+  border-top: 2px solid #949494;
+  border-left: 2px solid #949494;
+}
+.quoteBoard__contentWrapper h2 {
+  color: white;
+  position: absolute;
+  margin: 0px;
+  padding: .2em 1em;
+  top: -30px;
+}
+.quoteBoard .moreButton {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: white;
+  z-index: 3;
+  padding: 1em 3em;
+  color: white;
+  background: #fd502f;
+}
+.quoteBoard .moreButton h3 {
+  margin: 0px;
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.quoteBoard .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  background: rgba(25, 25, 25, 0.46);
+}
+.quoteBoard .carousel .carousel-control {
+  z-index: 10;
+  bottom: 80px;
+}
+.quoteBoard .carousel .carousel-control.left {
+  left: 45%;
+}
+.quoteBoard .carousel .carousel-control.right {
+  right: 45%;
+}
+.quoteBoard .carousel-inner {
+  height: 300px;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.quoteBoard .carousel-inner span {
+  color: white;
+  font-size: 1.2em;
+}
+.quoteBoard .carousel-item {
+  height: fit-content;
+  width: 70%;
+  margin-top: -100px;
+  text-align: center;
+}
+.quoteBoard .carousel-indicators {
+  bottom: 80px;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+.fontFamilySansSerif {
+  font-family: 'MyFont', meiryo, sans-serif;
+}
+.fontFamilySerif {
+  font-family: 'MyFont', meiryo, serif;
+}

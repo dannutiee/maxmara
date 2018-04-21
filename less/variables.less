@@ -1,0 +1,55 @@
+@navHeight: 80px;
+@black: #4f4f4f;
+@orange: #fd502f;
+@darkOverlay: rgba(25, 25, 25, 0.46);
+@heightSection: 850px;
+@heightQuoteBoard: 400px;
+@heightSectionTab: 450px;
+
+@heightSectionMobile: 350px;
+@heightSectionMobileXS: 250px;
+
+@smartphones: ~"only screen and (max-width : 992px)";
+
+@XSsmartphones: ~"only screen and ( max-width : 320px )";
+
+@tablets: ~"only screen and ( min-width: 768px ) and ( max-width : 992px )";
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../font/Adobe-Garamond-Pro-Regular.ttf');
+}
+
+.fontFamilySansSerif{
+	font-family: 'MyFont', meiryo , sans-serif ;
+}
+.fontFamilySerif{
+	font-family: 'MyFont', meiryo , serif ;
+}
+
+
+
+//mixins
+.bg-contain(){
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg-cover(){
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.headerButton(){
+	background: #fd502f;
+    border: none;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    &:hover{
+    	background: white;
+    	color: black;
+    }
+}

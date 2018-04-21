@@ -1,0 +1,92 @@
+@import "variables.less";
+
+body{
+	.fontFamilySansSerif();
+	 -webkit-font-smoothing: antialiased;
+}
+h1{
+	font-size: 12em ;
+	line-height: .9em;
+	.fontFamilySerif();
+}
+h3{
+	font-size: 20px;
+    text-transform: uppercase;
+    .fontFamilySerif();
+}
+h5{
+	font-style: italic;
+	line-height: 1.5em;
+}
+h2{
+	font-size: 3em;
+	font-family: serif;
+}
+
+
+
+
+.noPadding{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.noMargin{
+	margin-top:0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.noMarginH{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.noMarginV{
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.heightFullView , .wrapperText , header .overlay, .header .overlay
+{
+	height: 100vh;
+	max-height: 1200px;
+}
+
+.heightSection{
+	height: @heightSection;
+}
+.h-100
+{
+	height: 100%;
+
+}
+section{
+	margin-top:50px;
+}
+.zIndexLow{
+	z-index: -10 !important;
+}
+
+.overlay
+{
+	 background: rgba(25, 25, 25, 0.46);
+}
+
+.cursor
+{
+	cursor: pointer;
+}
+
+.button
+{
+	z-index: 1000 !important;
+	cursor: pointer;
+}
+
+a.no-style
+{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+

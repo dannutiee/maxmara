@@ -1,0 +1,61 @@
+@import "variables.less";
+
+nav , .nav{
+	height: @navHeight;
+	min-height: 80px;
+	width: 100%;
+	position: absolute;
+	z-index: 4;
+
+	// background-color: white;
+
+	&__borderTop{
+		height: 5px;
+		background-color: @orange;
+		width: 25%;
+		margin: 0px;
+   		position: absolute;
+   		z-index: 3;
+	}
+	&__login{
+		background-color: @orange;
+		float: right !important;
+		a{
+			color: white;
+		}
+	}
+}
+
+.navbar-brand{
+	background-image: url('../img/logo.jpg');
+	.bg-contain();
+	height: @navHeight !important;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 10;
+    list-style-type: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    align-items: center;
+    a{
+    	color: @black;
+    }
+    &__darkBg{
+    	a{
+    		color: white;
+    	}
+    }
+
+    li{
+    	line-height: 80px;
+        width: 100%;
+   		text-align: center;
+   		cursor: pointer;
+    }
+
+}
