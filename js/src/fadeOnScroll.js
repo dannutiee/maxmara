@@ -2,46 +2,61 @@ var oScroll = {
 
      sel: {
 
-
-
-
+        revelObjects:      'section, footer'
      },
 
      data: {
 
-             current_scroll:  null,
-             advertOffsetTop: null,
-
-
-
+             currentScroll:  null,
+             windowHeight: null,
+             windowScrollPosBottom: null,
+             sectionOffset: null
+            
+            
+            
      },
 
 
      init: function(){
 
+                    oScroll.data.windowHeight =  $(window).height();
+                    oScroll.hideContent();  
                      $(window).scroll(function(){
 
-                             oScroll.data.current_scroll = $(this).scrollTop();
-                             oScroll.data.windowScrollTop = $(window).scrollTop();
+                             oScroll.data.currentScroll = $(this).scrollTop();
+                             oScroll.data.windowScrollPosBottom = oScroll.data.currentScroll + oScroll.data.windowHeight
 
-                      
+                             oScroll.revelOnScroll(); 
 
-
-                             console.log(oScroll.data.current_scroll);
-                             console.log(oScroll.data.advertOffsetTop);
-
+                                
                      });
 
+     },
+
+     hideContent: function() {
+
+                    $(oScroll.sel.revelObjects).each(function()
+                    {
+                           if (  $(this).offset().top > oScroll.data.windowHeight )
+                           {
+                                    $(this).css('opacity', '0');
+
+                           }
+
+                    });                 
+     },
+
+     revelOnScroll: function() {
 
 
+                    $(oScroll.sel.revelObjects).each(function()
+                    {
+                         if ( oScroll.data.windowScrollPosBottom > $(this).offset().top )
+                              
+                                     $(this).animate({"opacity" : 1 } , 1000);
+                               
+                    });  
      }
-
-
-
-
-
-
-
 
 
 }
