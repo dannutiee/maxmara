@@ -88,5 +88,41 @@ a.no-style
 }
 
 
+.is-visible {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -webkit-transition: -webkit-transform .2s,background .3s,color .3s;
+  }
+
+ .is-hidden {
+    opacity: 0;
+    -webkit-transform: translate(0,-60px);
+    -webkit-transition: -webkit-transform .2s,background .3s,color .3s,opacity 0 .3s;
+  }
+
+  .fixed
+{
+	position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1100;
+    a{
+    	color: black !important;
+    }
+    a.login
+    {
+    	color: white !important;
+    }
+}
+
+
+.clearOpacity
+{
+		opacity: 0;
+
+    transition:opacity 1s linear;
+}
+
+
 
 
